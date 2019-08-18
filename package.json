@@ -1,0 +1,28 @@
+{
+  "name": "styledump",
+  "version": "1.0.0",
+  "description": "returns the computed styles of a web page as JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "styledump": "./bin/styledump.js"
+  },
+  "keywords": [
+    "CSS",
+    "getcomputedstyle",
+    "chrome",
+    "puppeteer",
+    "page",
+    "analysis"
+  ],
+  "author": "Franz Buchinger",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.0",
+    "extend": "^3.0.2",
+    "known-css-properties": "^0.15.0",
+    "puppeteer": "^1.19.0"
+  }
+}
