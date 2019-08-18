@@ -1,5 +1,5 @@
 # styledump
-extract computed CSS property values from a web page and return them as JSON.
+extract [computed CSS property values](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle) from a web page and return them as JSON.
 
 ## Installation
 
