@@ -1,7 +1,9 @@
 # styledump
-extract [computed CSS property values](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle) from a web page and return them as JSON.
+is a command-line tool that loads a webpage URL into a [headless chrome browser](https://developers.google.com/web/updates/2017/04/headless-chrome). It then extracts the [computed CSS property values](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle) from that web page and return them as JSON. Duplicate property values are removed.
 
 ## Installation
+1. Make sure you have the [Node.js](https://nodejs.org/en/) Javascript Runtime installed on your system.
+2. Open a command line prompt (cmd.exe under Windows or a shell on other operating systems) and type: 
 
 ```
 npm install -g layoutanalysis/styledump
